@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">2001010052_projecttwo</string>
+    <string name="aaa">RUMUS VOLUME BALOK</string>
+    <string name="hitung">hitung</string>
+    <string name="lebar">LEBAR</string>
+    <string name="tinggi">TINGGI</string>
+    <string name="panjang">PANJANG</string>
+    <string name="kubus">kubus</string>
+    <string name="judul">MAIN MENU</string>
+    <string name="volume_balok">volume balok</string>
+    <string name="kalkulator">kalkulator</string>
+    <string name="masukan_panjang_balok">masukan panjang balok</string>
+    <string name="masukan_lebar_balok">masukan lebar balok</string>
+    <string name="masukan_lebar_balokj">Masukan Lebar Balok</string>
+    <string name="masukan_tinggi_balok">masukan tinggi balok</string>
+    <string name="Kalks">KALKULATOR \nSEDERHANA</string>
+    <string name="sama">=</string>
+    <string name="hasilko">Hasil Konversi</string>
+    <string name="usd"><![CDATA[RP > USD]]></string>
+    <string name="euro"><![CDATA[RP > EURO]]></string>
+    <string name="yen"><![CDATA[RP > YEN]]></string>
+    <string name="mon">Money Converter</string>
+    <string name="conv">Money Converter</string>
+    <string name="clear">C</string>
+    <string name="klear">Clear</string>
+</resources>

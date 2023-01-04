@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8BC34A"
+    tools:context=".MoneyActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="227dp"
+        android:layout_height="198dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="92dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/mone" />
+
+    <EditText
+        android:id="@+id/inputuang"
+        android:layout_width="174dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#000000"
+        android:ems="10"
+        android:hint="Rupiah"
+        android:inputType="number"
+        android:textColor="#000000"
+        android:textColorHint="#FFFEFE"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="24dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="8dp"
+        android:text="@string/sama"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toStartOf="@+id/hasilt"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/inputuang"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <TextView
+        android:id="@+id/hasilt"
+        android:layout_width="99dp"
+        android:layout_height="26dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="64dp"
+        android:background="#FFFFFF"
+        android:text="@string/hasilko"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView10" />
+
+    <Button
+        android:id="@+id/rpeuro"
+        android:layout_width="248dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#FF9800"
+        android:onClick="toeuro"
+        android:text="@string/euro"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.484"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rpyen" />
+
+    <Button
+        android:id="@+id/rpusd"
+        android:layout_width="245dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#DD2E2E"
+        android:onClick="tousd"
+        android:text="@string/usd"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/inputuang" />
+
+    <Button
+        android:id="@+id/rpyen"
+        android:layout_width="243dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="13dp"
+        android:backgroundTint="#3F51B5"
+        android:onClick="toyen"
+        android:text="@string/yen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rpusd" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="412dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="16dp"
+        android:background="#009688"
+        android:text="@string/mon"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+</androidx.constraintlayout.widget.ConstraintLayout>
